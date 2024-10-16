@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const optionsSexo = {
-        chart: { 
-            type: 'column',zoomType: 'xy'},
+        chart: {type: 'column',zoomType: 'xy'},
+            credits: {enabled: false},
             colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
-        title: { text: 'Usuários de produtos derivados de tabaco por sexo' },
+        title: { text: 'Pessoas com diagnóstico autorreferido de depressão por profissional de saúde mental por sexo' },
         legend: {
             enabled: 'true',
             title: 'horizontal'            
@@ -45,8 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Opções do gráfico por idade
     const optionsIdade = {
         chart: { type: 'column', zoomType: 'xy' },
+        credits: {enabled: false},
         colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
-        title: { text: 'Usuários de produtos derivados de tabaco por idade' },
+        title: { text: 'Pessoas com diagnóstico autorreferido de depressão por profissional de saúde mental por idade' },
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -80,8 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const optionsEscolaridade = {
         chart: { type: 'column', zoomType: 'xy' },
+        credits: {enabled: false},
         colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
-        title: { text: 'Usuários de produtos derivados de tabaco por nível de instrução' },
+        title: { text: 'Pessoas com diagnóstico autorreferido de depressão por profissional de saúde mental por nível de instrução' },
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -116,8 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const optionsRaca = {
         chart: { type: 'column', zoomType: 'xy' },
+        credits: {enabled: false},
         colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
-        title: { text: 'Usuários de produtos derivados de tabaco por cor/raça' },
+        title: { text: 'Pessoas com diagnóstico autorreferido de depressão por profissional de saúde mental por cor/raça' },
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -157,8 +160,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const optionsRenda = {
         chart: { type: 'column', zoomType: 'xy' },
+        credits: {enabled: false},
         colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
-        title: { text: 'Usuários de produtos derivados de tabaco por renda domiciliar per capita' },
+        title: { text: 'Pessoas com diagnóstico autorreferido de depressão por profissional de saúde mental por renda domiciliar per capita' },
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },

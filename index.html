@@ -64,7 +64,7 @@
             </div>
         </nav>
     </header>
-    <div class="container-sm">
+    <div class="container-sm my-4">
         <div class="my-4 d-flex align-items-center justify-content-between">
             <h4 class="text-primary">Home</h4>
             <nav aria-label="breadcrumb">
@@ -76,35 +76,80 @@
         </div>
         <div class="container-md d-flex-column">
             <div class="row align-items-center mb-4">
-                <div class="col-3">
+                <div class="col-md-3">
                     <img src="./images/overworked_man.png" width="100%" alt="Imagem de um homem sobrecarregado">
                 </div>
-                <div class="col-9 p-5">
-                    <p style="text-align: justify;">A relação entre o tabagismo e a depressão vem, nos últimos anos,
+                <div class="col-md-9 p-5">
+                    <!-- <p style="text-align: justify;">A relação entre o tabagismo e a depressão vem, nos últimos anos,
                         sendo alvo
                         de diversos estudos e publicações, evidenciando cada vez mais a associação entre o consumo de
                         produtos
                         fumígenos e o transtorno depressivo. A busca de maneiras de aliviar os sintomas de ansiedade e
                         depressão
-                        acaba por, muitas vezes, levar as pessoas a começarem a fumar.</p>
-                    <div class="alert alert-info border-0 p-2" role="alert">
-                        Através de diversas reações químicas, a nicotina (substância química encontrada no tabaco)
+                        acaba por, muitas vezes, levar as pessoas a começarem a fumar.</p> -->
+                    <p style="text-align: justify;">A relação entre o tabagismo e a depressão tem sido, nos últimos
+                        anos, alvo de pesquisas e publicações, em busca de explicitar uma possível relação bidirecional.
+                    </p>
+                    <p style="text-align: justify;">Através de diversas reações químicas, a nicotina (substância química
+                        encontrada no tabaco)
                         interfere
                         nos sistemas neuroquímicos do nosso cérebro, o que pode aliviar os sentimentos de tristeza e
                         humor
                         negativo.
-                    </div>
+                    </p>
                 </div>
             </div>
+            <div class="alert alert-info border-0" role="alert">
+                Fumantes com histórico de depressão têm maior risco de recaídas durante a abstinência, em
+                comparação com fumantes sem depressão. A cessação do tabagismo pode agravar ou desencadear novos
+                episódios depressivos nesses indivíduos, e mesmo após parar de fumar, as recaídas são mais
+                frequentes, pois a nicotina auxilia na manutenção da homeostase interna.
+                (Glassman et al., 1988; Breslau et al. 1992; Glassman, 1993; Escobedo et al. 1996; Gilbert et
+                al. 1997; Patton et al. 1998; Glassman et al. 2001; Laje, et al., 2001)
+            </div>
             <div class="row align-items-center">
-                <div class="col-9 p-5">
+                <div class="col-md-9 p-5">
+                    <p style="text-align: justify;">
+                        Estudos clínicos na área da saúde e artigos já comprovaram essa hipótese, mas será que isso pode
+                        ser comprovado estatisticamente?</p>
                     <p style="text-align: justify;">A partir dos datasets retirados do site da PNS, podemos perceber a
                         relação entre a porcentagem de pessoas que fazem a utilização de produtos fumígenos com a
                         quantidade de pessoas que têm diagnóstico de transtorno depressivo. As pesquisas em questão
                         foram realizadas pelo IBGE em 2019, na Pesquisa Nacional de Saúde.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <img src="./images/computer.png" width="100%" alt="Imagem de um homem sobrecarregado">
+                </div>
+            </div>
+            <h3 class="text-center mb-4">Confira abaixo</h3>
+            <div class="row flex-wrap justify-content-center">
+                <div class="col-3">
+                    <div class="card" onclick="window.location.href='./comparacao_dados.html'" style="cursor: pointer;">
+                        <div class="card-body">
+                            <img src="./images/pie_chart.png" width="100%" alt="Imagem de um gráfico de pizza">
+                            <h5 class="card-title">Comparação dos Dados</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" onclick="window.location.href='./tabagismo.html'" style="cursor: pointer;">
+                        <div class="card-body">
+                            <img src="./images/pie_chart.png" width="100%" alt="Imagem de um gráfico de pizza">
+                            <h5 class="card-title">
+                                <a>Tabagismo</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" onclick="window.location.href='./depressao.html'" style="cursor: pointer;">
+                        <div class="card-body">
+                            <img src="./images/pie_chart.png" width="100%" alt="Imagem de um gráfico de pizza">
+                            <h5 class="card-title">
+                                <a>Depressão</a>
+                            </h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

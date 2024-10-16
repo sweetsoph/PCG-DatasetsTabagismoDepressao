@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const optionsFM = {
+    const optionsSexo = {
         chart: { 
             type: 'column',zoomType: 'xy'},
             colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
@@ -33,13 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     groupPadding:0.3
                     }   
                },
-        legend: { enabled: false }
+  
     };
 
-    $.get('./tab-CSV-Arquivos/tabFM.csv', csv => {
-        optionsFM.data = { csv };
-        Highcharts.chart('tabContainerFM', optionsFM);
+    $.get('./dep-CSV-arquivos/depressão_sexo.csv', csv => {
+        optionsSexo.data = { csv };
+        Highcharts.chart('depContainerSexo', optionsSexo);
     });
+
 
     // Opções do gráfico por idade
     const optionsIdade = {
@@ -72,9 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
         legend: { enabled: false }
     };
 
-    $.get('./tab-CSV-Arquivos/tabagismo_idade.csv', csv => {
+    $.get('./dep-CSV-arquivos/depressão_idade.csv', csv => {
         optionsIdade.data = { csv };
-        Highcharts.chart('tabContainerIdade', optionsIdade);
+        Highcharts.chart('depContainerIdade', optionsIdade);
     });
 
     const optionsEscolaridade = {
@@ -108,9 +109,9 @@ document.addEventListener('DOMContentLoaded', () => {
         legend: { enabled: false }
     };
 
-    $.get('./tab-CSV-Arquivos/tabagismo_escolaridade.csv', csv => {
+    $.get('./dep-CSV-arquivos/depressão_escolaridade.csv', csv => {
         optionsEscolaridade.data = { csv };
-        Highcharts.chart('tabContainerEscolaridade', optionsEscolaridade);
+        Highcharts.chart('depContainerEscolaridade', optionsEscolaridade);
     });
 
     const optionsRaca = {
@@ -143,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         legend: { enabled: false }
     };
 
-    $.get('./tab-CSV-Arquivos/tabagismo_raca.csv', csv => {
+    $.get('./dep-CSV-arquivos/depressão_raca.csv', csv => {
         optionsRaca.data = { 
             csv: csv,
             itemDelimiter: ';',
@@ -151,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
             startColumn: 0 
 
         };
-        Highcharts.chart('tabContainerRaca', optionsRaca);
+        Highcharts.chart('depContainerRaca', optionsRaca);
     });
 
     const optionsRenda = {
@@ -184,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
         legend: { enabled: false }
     };
 
-    $.get('./tab-CSV-Arquivos/tabagismo_renda.csv', csv => {
+    $.get('./dep-CSV-Arquivos/depressão_renda.csv', csv => {
         optionsRenda.data = { 
             csv: csv,
             itemDelimiter: ';',
@@ -192,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
             startColumn: 0 
 
         };
-        Highcharts.chart('tabContainerRenda', optionsRenda);
+        Highcharts.chart('depContainerRenda', optionsRenda);
     });
 });
     

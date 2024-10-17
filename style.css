@@ -1,7 +1,6 @@
 #tabContainerFM{
     height: 500px;
     width: 600px;   
-    margin-top: 1px;
 }
 #tabContainerIdade{
     height: 500px;
@@ -38,18 +37,18 @@
 #depContainerIdade{
     height: 500px;
     width: 600px;   
-    margin-top: 1px;
+
 }
 #depContainerEscolaridade{
     height: 500px;
     width: 600px;   
-    margin-top: 1px;
+
 }
 
 #depContainerRaca{
     height: 500px;
     width: 600px;   
-    margin-top: 1px;
+
 }
 
 #depContainerRenda{
@@ -76,3 +75,19 @@
     margin-top: 1px;
 }
 
+footer {
+    text-align: left;
+    margin: 0; 
+    padding: 0; 
+    width: 100%;
+    background-color: #C8F0F8;
+    color: black;
+    position: relative
+  }
+
+  #autores{
+    font-weight: bold;
+    color: #005A66
+  }
+
+  

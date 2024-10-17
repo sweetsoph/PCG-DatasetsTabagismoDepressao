@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             enabled: 'true',
             title: 'horizontal'            
         },
+        credits: {enabled: false},
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -25,6 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
         yAxis: { 
             title: { text: '%' }},
 
+        tooltip: {
+                valueSuffix: '%'
+            },
         plotOptions: {
                 series:{
                     grouping:false,
@@ -54,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             enabled: 'true',
             title: 'horizontal'            
         },
+        credits: {enabled: false},
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -70,11 +75,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }},
         yAxis: { 
             title: { text: '%' }},
+
         plotOptions: {
             column: {
                 pointPadding: 0.2,
                 borderWidth: 0
             }
+        },
+        tooltip: {
+            valueSuffix: '%'
         },
     };
 
@@ -93,12 +102,14 @@ document.addEventListener('DOMContentLoaded', () => {
             chart: {
                 type: 'bar'
             },
+            colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
             title: {
                 text: 'Comparação entre usuários de tabaco e pessoas com depressão totais no Brasil por estado' },
             legend: {
                 enabled: 'true',
                 layout: 'horizontal'            
             },
+            credits: {enabled: false},
             subtitle: {
                 text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>', 
             },
@@ -135,6 +146,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 labels: {
                     format: '{abs value}%'
                 },
+            },
+
+            tooltip: {
+            format: '<b>{series.name}</b><br/>' +
+                        '<b>{(abs point.y):.1f}%</b>'
             },
         
             plotOptions: {

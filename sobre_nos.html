@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PCG - Depressão e Tabagismo</title>
+    <link rel="icon" href="./images/logo-unisantos.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.materialdesignicons.com/7.0.96/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">    
 </head>
 
 <body>
@@ -14,7 +17,8 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-                    <img src="https://www.unisantos.br/wp-content/uploads/2018/06/unisantos-vertical-azul-225x300.jpg" alt="Logo" height="60" class="d-inline-block align-text-top">
+                    <img src="https://www.unisantos.br/wp-content/uploads/2018/06/unisantos-vertical-azul-225x300.jpg"
+                        alt="Logo" height="60" class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -41,32 +45,175 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./ajuda.html">Ajuda</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li> -->
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <h1>Comparação dos Dados</h1>
-        <p>Comparação dos dados de depressão e tabagismo.</p>
+    <div class="container-fluid px-0">
+        <div class="bg-dark">
+            <img src="./images/unisantos.png" alt="Foto da Unisantos" width="100%" height="300px"
+                style="object-fit: cover; opacity: 0.45">
+        </div>
+
+        <div class="container py-5">
+            <div class=" d-flex align-items-center justify-content-between">
+                <h4 class="text-primary">Sobre N&oacute;s</h4>
+                <nav class="d-md-flex d-none" aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item active"><a>PCG - Depressão e Tabagismo</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Sobre N&oacute;s</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="container-md mt-5">
+                <p style="text-align: justify;">Este projeto foi desenvolvido por Felipe Carvalho de Moura, Kauan Alves
+                    Pião, Vinicius Medeiros Peres
+                    e Sophia Verardo de Araújo, todos estudantes do 4º semestre de Ciência da Computação na Universidade
+                    Católica de Santos (UNISANTOS), com a finalidade de obtenção de nota para a Pesquisa Curricular de
+                    graduação (PCG).</p>
+
+                <p style="text-align: justify;">A Universidade Católica de Santos (UNISANTOS) é uma instituição de
+                    ensino superior localizada em
+                    Santos, São Paulo. Fundada em 1946, a universidade tem como missão promover a formação integral do
+                    aluno, combinando conhecimento acadêmico com valores éticos e sociais. Oferece uma ampla variedade
+                    de cursos de graduação e pós-graduação, abrangendo áreas como ciências humanas, exatas, saúde e
+                    negócios. A UniSantos é reconhecida por sua infraestrutura moderna, corpo docente qualificado e
+                    compromisso com a pesquisa e a extensão comunitária.</p>
+            </div>
+
+            <div class="container-md">
+                <h5 class="my-4">Integrantes</h5>
+                <div class="row flex-row justify-content-center gap-3">
+                    <div class="card border-0 shadow text-center px-0" style="width: 220px;">
+                        <img src="./images/felipe.png" class="card-img-top" height="220px" style="object-fit: cover;"
+                            alt="Foto de Felipe Carvalho de Moura">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h6 class="card-title">Felipe Carvalho de Moura</h6>
+                                <small class="card-text">
+                                    Estudante de Ciência da Computação na UNISANTOS.
+                                </small>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/felipe-moura-27075b288/" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/felipecmdev" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 shadow text-center px-0" style="width: 220px;">
+                        <img src="./images/kauan.png" class="card-img-top" height="220px" style="object-fit: cover;"
+                            alt="Foto de Kauan Alves Pião">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h6 class="card-title">Kauan Alves Pião</h6>
+                                <small class="card-text">
+                                    Estudante de Ciência da Computação na UNISANTOS.
+                                </small>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/kauan-alves-pi%C3%A3o-281187211/" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/kauanpiaodev" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 shadow text-center px-0" style="width: 220px;">
+                        <img src="./images/sophia.png" class="card-img-top" height="220px" style="object-fit: cover;"
+                            alt="Foto de Sophia Verardo de Araújo">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h6 class="card-title">Sophia Verardo de Araújo</h6>
+                                <small class="card-text">
+                                    Estudante de Ciência da Computação na UNISANTOS.
+                                </small>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/sophia-verardo-de-ara%C3%BAjo-697698237/"
+                                    target="_blank" class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sweetsoph" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 shadow text-center px-0" style="width: 220px;">
+                        <img src="./images/vinicius.png" class="card-img-top" height="220px" style="object-fit: cover;"
+                            alt="Foto de Vinicius Medeiros Peres">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h6 class="card-title">Vinicius Medeiros Peres</h6>
+                                <small class="card-text">
+                                    Estudante de Ciência da Computação na UNISANTOS.
+                                </small>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/vinicius-medeiros-peres-9291532b3/" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/ViniciusMedeiros23" target="_blank"
+                                    class="btn btn-lg p-1 action-icon">
+                                    <i class="mdi mdi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="container mt-5 pt-5">
+            <div class="row flex-row align-items-start">
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <div id="autores">
+                        <h6 class="text-uppercase fw-bold">Autores</h6>
+                        <hr class="mb-4 mt-0 d-inline-block"
+                            style="width: 60px; background-color: #005A66; height: 2px">
+                    </div>
+                    <p>
+                        <a href="#!" class="text-black">Felipe Carvalho de Moura</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-black">Kauan Alves Pião</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-black">Sophia Verardo de Araújo</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-black">Vinicius Medeiros Peres</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold" style="color: #005A66">Links Úteis</h6>
+                    <hr class="mb-4 mt-0 d-inline-block" style="width: 60px; background-color: #005A66; height: 2px" />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024
+        </div>
+    </footer>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

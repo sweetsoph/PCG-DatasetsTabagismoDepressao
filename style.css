@@ -1,93 +1,86 @@
-#tabContainerFM{
-    height: 500px;
-    width: 600px;   
-}
-#tabContainerIdade{
+#tabContainerFM {
     height: 500px;
     width: 600px;
-    margin-top: 200px;
 }
-#tabContainerEscolaridade{
+
+#tabContainerIdade {
     height: 500px;
     width: 600px;
-    margin-top: 200px;
 }
-#tabContainerRaca{
+
+#tabContainerEscolaridade {
     height: 500px;
     width: 600px;
-    margin-top: 200px;
 }
-#tabContainerRenda{
+
+#tabContainerRaca {
     height: 500px;
     width: 600px;
-    margin-top: 200px;
 }
 
-.row{
-    align-items: center;
-    display: flex;
-    flex-direction:column;
-}
-
-#depContainerSexo{
+#tabContainerRenda {
     height: 500px;
-    width: 600px;   
-    margin-top: 30px;
-}
-#depContainerIdade{
-    height: 500px;
-    width: 600px;   
-
-}
-#depContainerEscolaridade{
-    height: 500px;
-    width: 600px;   
-
+    width: 600px;
 }
 
-#depContainerRaca{
+
+#depContainerSexo {
     height: 500px;
-    width: 600px;   
+    width: 600px;
+}
+
+#depContainerIdade {
+    height: 500px;
+    width: 600px;
 
 }
 
-#depContainerRenda{
+#depContainerEscolaridade {
     height: 500px;
-    width: 600px;   
-    margin-top: 1px;
+    width: 600px;
 }
 
-#tabDepContainer{
+#depContainerRaca {
     height: 500px;
-    width: 600px;   
-    margin-top: 1px;
+    width: 600px;
+
 }
 
-#tabDepRegContainer{
+#depContainerRenda {
     height: 500px;
-    width: 600px;   
-    margin-top: 1px;
+    width: 600px;
 }
 
-#tabDepEstContainer{
+#tabDepContainer {
     height: 500px;
-    width: 600px;   
-    margin-top: 1px;
+    width: 600px;
+}
+
+#tabDepRegContainer {
+    height: 500px;
+    width: 600px;
+}
+
+#tabDepEstContainer {
+    height: 500px;
+    width: 600px;
 }
 
 footer {
     text-align: left;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
     width: 100%;
     background-color: #C8F0F8;
     color: black;
     position: relative
-  }
+}
 
-  #autores{
+#autores {
     font-weight: bold;
     color: #005A66
-  }
+}
 
-  
+.text-primary {
+    color: rgb(10, 180, 199) !important;
+}

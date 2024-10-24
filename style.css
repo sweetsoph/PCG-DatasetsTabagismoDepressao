@@ -84,3 +84,33 @@ footer {
 .text-primary {
     color: rgb(10, 180, 199) !important;
 }
+
+.scroll-indicator {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 3rem;
+    color: #005A66;
+    z-index: 1000;
+    user-select: none;
+    transition: all 0.3s ease;
+    animation: bounce 2s infinite;
+}
+.scroll-indicator div p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}

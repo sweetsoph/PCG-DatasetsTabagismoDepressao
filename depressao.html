@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
             <div class="container-fluid">
-                <a class="navbar-brand d-flex align-items-center gap-2" href="./">
+                <a class="navbar-brand d-flex align-items-center gap-2">
                     <img src="./images/logo-unisantos.png"
                         alt="Logo" height="60" class="d-inline-block align-text-top">
                 </a>
@@ -30,22 +30,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="./">Home</a>
+                            <a class="nav-link" href="./"><strong>Home</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./comparacao_dados.html">Comparação dos Dados</a>
+                            <a class="nav-link" href="./comparacao_dados.html"><strong>Comparação de Dados</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./tabagismo.html">Tabagismo</a>
+                            <a class="nav-link" href="./tabagismo.html"><strong>Tabagismo</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./depressao.html">Depressão</a>
+                            <a class="nav-link" href="./depressao.html"><strong>Depressão</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./sobre_nos.html">Sobre Nós</a>
+                            <a class="nav-link" href="./sobre_nos.html"><strong>Sobre Nós</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./ajuda.html">Ajuda</a>
+                            <a class="nav-link" href="./ajuda.html"><strong>Ajuda</strong></a>
                         </li>
                     </ul>
                 </div>
@@ -114,6 +114,31 @@
             <div id="depContainerRenda"></div>
         </div>
     </div>
+    
+    <h3 class="text-center mb-4">Explore mais informações clicando nos cards abaixo</h3>
+    <div class="row flex-row flex-wrap justify-content-center">
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100" onclick="window.location.href='./comparacao_dados.html'" style="cursor: pointer;">
+                <div class="card-body text-center pt-4">
+                    <img src="./images/chart_analyze.png" height="150px" alt="Imagem de um gráfico de pizza">
+                    <h5 class="card-title mt-4 mb-2">Comparação dos Dados</h5>
+                    <p class="card-text">Confira a relação entre tabagismo e depressão no Brasil.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100" onclick="window.location.href='./tabagismo.html'" style="cursor: pointer;">
+                <div class="card-body text-center pt-4">
+                    <img src="./images/chart_bar.png" height="150px" alt="Imagem de um gráfico de pizza">
+                    <h5 class="card-title mt-4 mb-2">
+                        <a>Tabagismo</a>
+                    </h5>
+                    <p class="card-text">Saiba mais sobre o tabagismo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="container mt-5 pt-5">
             <div class="row flex-row align-items-start">

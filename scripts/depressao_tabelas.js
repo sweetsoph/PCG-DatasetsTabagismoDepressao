@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }},
         yAxis: { 
             title: { text: '%' }},
+        tooltip: {
+                valueSuffix: '%'
+            },
 
         plotOptions: {
                 series:{
@@ -63,6 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     fontFamily: 'sans-serif'}
         }},
         yAxis: { title: { text: '%' } },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
@@ -99,7 +105,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     fontFamily: 'sans-serif'}
         }
          },
-        yAxis: { title: { text: '%' }, },
+        yAxis: { title: { text: '%' }, },  
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
@@ -108,6 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 groupPadding:0.2
                 }   
            },
+      
         legend: { enabled: false }
     };
 
@@ -136,6 +146,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
          },
         yAxis: { title: { text: '%' } },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
@@ -178,6 +191,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
          },
         yAxis: { title: { text: '%' } },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,

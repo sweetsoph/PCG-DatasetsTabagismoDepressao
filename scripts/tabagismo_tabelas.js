@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             enabled: 'true',
             title: 'horizontal'            
         },
+        credits: {enabled: false},
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -24,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }},
         yAxis: { 
             title: { text: '%' }},
+        tooltip: {
+                valueSuffix: '%'
+            },
 
         plotOptions: {
                 series:{
@@ -49,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
+        credits: {enabled: false},
         xAxis: { 
             type: 'category',
             labels: {
@@ -61,6 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     fontFamily: 'sans-serif'}
         }},
         yAxis: { title: { text: '%' } },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
@@ -84,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
+        credits: {enabled: false},
         xAxis: { 
             type: 'category',
             labels: {
@@ -97,6 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
          },
         yAxis: { title: { text: '%' }, },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
@@ -117,6 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         chart: { type: 'column', zoomType: 'xy' },
         colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
         title: { text: 'Usuários de produtos derivados de tabaco por cor/raça' },
+        credits: {enabled: false},
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -132,6 +145,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
          },
         yAxis: { title: { text: '%' } },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
@@ -158,6 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         chart: { type: 'column', zoomType: 'xy' },
         colors: ['#0ab4c7','#0a6fc7', '#2a46ad','#523d82','#66345e' ],
         title: { text: 'Usuários de produtos derivados de tabaco por renda domiciliar per capita' },
+        credits: {enabled: false},
         subtitle: { 
             text: 'Source: <a href="https://www.pns.icict.fiocruz.br/painel-de-indicadores-mobile-desktop/" target="_blank">PNS2019</a>' 
         },
@@ -173,6 +190,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
          },
         yAxis: { title: { text: '%' } },
+        tooltip: {
+            valueSuffix: '%'
+        },
         plotOptions: {
             series:{
                 grouping:false,
